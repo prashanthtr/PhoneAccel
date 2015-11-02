@@ -150,10 +150,10 @@ require(
 
             // call our orientation event handler
             //deviceOrientationHandler(tiltLR, tiltFB, dir);
-            console.log(eventData.alpha);
+            console.log("nulling");
 
-            dot[0].colorString = "hsl(" + Math.random()+ ",1, .75)";
-            dot[0].attr({"fill": dot[i].colorString, "fill-opacity" : .5})
+            var colorString = "hsl(" + Math.random()+ ",1, .75)";
+            dot[0].attr({"fill": colorString, "fill-opacity" : .5})
 
         }, false);
 
