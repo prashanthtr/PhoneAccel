@@ -152,6 +152,9 @@ require(
             //deviceOrientationHandler(tiltLR, tiltFB, dir);
             console.log(eventData.alpha);
 
+            dot[0].colorString = "hsl(" + Math.random()+ ",1, .75)";
+            dot[0].attr({"fill": dot[i].colorString, "fill-opacity" : .5})
+
         }, false);
 
 
